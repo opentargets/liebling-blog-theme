@@ -6,6 +6,24 @@ If you find this theme useful, please consider to make a donation to support its
 
 <a href="https://ko-fi.com/eddiesigner" target="_blank"><img src="https://res.cloudinary.com/edev/image/upload/v1583011476/button_y8hgt8.png" alt="Donate" style="width: 250px !important; height: 60px !important;" width="250" height="60"></a>
 
+## Open Targets
+
+The Open Targets blog uses a (slightly) modified version of Liebling. 
+The main differences are:
+ - support for comments on a post
+ - support for multiple authors
+ - default branch is `main`
+
+The blog itself is hosted on Ghost.
+
+### Updating the theme
+
+If the theme is modified, it will need to be updated on Ghost by uploading a `zip` file.
+
+**1. Build the theme** from `/src` run `npm run production`: this will generate the .zip archive. Currently this is done locally.
+
+**2. Upload the theme .zip** in Ghost from `Settings > Design > Change theme > Upload theme`
+
 ## Ghost 5
 
 This theme has been optimized for Ghost 5, if you are looking for a Ghost 4 compatible version please refer to [this link](https://github.com/eddiesigner/liebling/releases/tag/v1.5.2).
